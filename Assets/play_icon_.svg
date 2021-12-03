@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="492" height="492" viewBox="0 0 492 492">
+  <defs>
+    <filter id="Ellipse_19" x="0" y="0" width="492" height="492" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-color="#00c1e0" flood-opacity="0.188"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="play_icon_" transform="translate(-5865 -893)">
+    <g transform="matrix(1, 0, 0, 1, 5865, 893)" filter="url(#Ellipse_19)">
+      <circle id="Ellipse_19-2" data-name="Ellipse 19" cx="207" cy="207" r="207" transform="translate(39 29)" fill="#00c1e0"/>
+    </g>
+    <g id="Path_26" data-name="Path 26" transform="translate(6225 1026) rotate(90)" fill="none">
+      <path d="M92.67,7.5a5,5,0,0,1,8.66,0l88.34,153a5,5,0,0,1-4.33,7.5H8.66a5,5,0,0,1-4.33-7.5Z" stroke="none"/>
+      <path d="M 96.99999237060547 4.999618530273438 C 98.68389129638672 4.999618530273438 100.3677825927734 5.832901000976563 101.330078125 7.499481201171875 L 189.6695709228516 160.4999084472656 C 191.5941619873047 163.8332366943359 189.1885681152344 167.9999847412109 185.3394927978516 167.9999847412109 L 8.660491943359375 167.9999847412109 C 4.811416625976563 167.9999847412109 2.40582275390625 163.8332366943359 4.330413818359375 160.4999084472656 L 92.66990661621094 7.499481201171875 C 93.6322021484375 5.832901000976563 95.31609344482422 4.999618530273438 96.99999237060547 4.999618530273438 Z" stroke="none" fill="#fff"/>
+    </g>
+  </g>
+</svg>

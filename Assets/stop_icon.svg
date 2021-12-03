@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61.423" height="44" viewBox="0 0 61.423 44">
+  <g id="stop_icon" transform="translate(-5510.577 -1447)">
+    <path id="Union_6" data-name="Union 6" d="M31,30.083a17.017,17.017,0,0,1-5.747-10.04c-3.545-7.153-9.284-8.654-13.475-8.654a20.485,20.485,0,0,0-7.2,1.349V.406c.035.011,3.839,1.189,14,1.189,1.374,0,2.862-.027,4.421-.08v.61a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2V.908C37.545.531,40.869.13,40.9.125c0,0,0,.011-.005.022l0,.013C41.264.137,41.637.125,42,.125a17.017,17.017,0,0,1,16.553,13.1,4.5,4.5,0,1,1,.177,6.943A17.005,17.005,0,0,1,31,30.083ZM59,16.625a2.523,2.523,0,1,0,5,0,2.523,2.523,0,1,0-5,0Z" transform="translate(5506 1456.875)" fill="#f05c5a"/>
+    <path id="Path_25" data-name="Path 25" d="M12.3,0A12.3,12.3,0,1,1,0,12.3,12.3,12.3,0,0,1,12.3,0Z" transform="translate(5536 1461.407)" fill="#eb3134"/>
+    <text id="stop" transform="translate(5537.142 1476.58)" fill="#fff" font-size="8" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">STOP</tspan></text>
+    <g id="Group_87" data-name="Group 87" transform="translate(-11 67)">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="2" height="8" transform="translate(5544 1380)" fill="#d94e4e"/>
+      <rect id="Rectangle_62" data-name="Rectangle 62" width="2" height="8" transform="translate(5554.121 1382.464) rotate(45)" fill="#d94e4e"/>
+      <rect id="Rectangle_63" data-name="Rectangle 63" width="2" height="8" transform="translate(5541.535 1388.121) rotate(135)" fill="#d94e4e"/>
+    </g>
+  </g>
+</svg>

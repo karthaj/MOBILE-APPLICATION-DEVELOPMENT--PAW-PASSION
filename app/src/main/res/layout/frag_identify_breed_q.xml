@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/question_igm_gb"
+        android:elevation="@dimen/elevation_height"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:saveEnabled="false"
+        app:layout_constraintBottom_toTopOf="@id/button_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+
+            android:id="@+id/img_question"
+            android:layout_width="354dp"
+            android:layout_height="330dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/image_viewer"
+            android:elevation="@dimen/elevation_height"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:src="@drawable/source"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/result_view"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:paddingBottom="@dimen/question_b_padding"
+                android:text="@string/guess_the_breed"
+                android:textAlignment="center"
+                android:textColor="@color/color_4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_answer"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="12dp"
+                android:autofillHints="SELECT"
+                android:background="@drawable/dropdown_bg"
+                android:elevation="2dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_submit"
+        android:elevation="@dimen/elevation_height"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/button_submit"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/base" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

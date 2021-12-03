@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttons_top_margin">290dp</dimen>
+    <dimen name="layoutConstraint">0.923</dimen>
+    <dimen name="dog_img_q_size">160dp</dimen>
+    <dimen name="layoutEditorX">130dp</dimen>
+    <dimen name="layoutEditorY">320dp</dimen>
+    <dimen name="margin_button">10dp</dimen>
+    <dimen name="c_r_fontSize">45sp</dimen>
+
+    <dimen name="question_b_padding">15dp</dimen>
+
+    <!--Answer or result -->
+    <dimen name="answer_gb_padding">10dp</dimen>
+    <dimen name="answer_font_size">22sp</dimen>
+
+    <!--    Level switcher in home page [ difficulty ]-->
+    <dimen name="margin_level_switcher">40dp</dimen>
+
+    <!--    Card -->
+    <dimen name="card_margin_lr">30dp</dimen>
+    <dimen name="card_margin">200dp</dimen>
+
+    <!--    Home page Title font size-->
+    <dimen name="logo_font">110sp</dimen>
+
+
+    <dimen name="spacer">20dp</dimen>
+
+    <!--    Every game page frame padding-->
+    <dimen name="frame_padding">3dp</dimen>
+
+    <!--    Submit button in identify breed-->
+    <dimen name="button_submit_lt_margin">100dp</dimen>
+
+    <!--    All buttons pages title-->
+    <dimen name="title_padding">50dp</dimen>
+    <dimen name="title_height">45dp</dimen>
+    <dimen name="title_radius">15dp</dimen>
+
+    <!--    Search page -->
+    <dimen name="search_bar_margin">20dp</dimen>
+    <dimen name="search_margin">5dp</dimen>
+    <dimen name="search_icon_size">50dp</dimen>
+    <dimen name="search_text_margin">5dp</dimen>
+
+    <!--    Timer in game pages-->
+    <dimen name="timer_padding">155dp</dimen>
+    <dimen name="timer_radius">15dp</dimen>
+    <dimen name="level_timer_tx_siz">30sp</dimen>
+    <dimen name="question_font_size">20sp</dimen>
+    <dimen name="dog_q_txtSiz">10dp</dimen>
+    <dimen name="button_next_margin">100dp</dimen>
+    <dimen name="margin_breed_options">7dp</dimen>
+
+    <dimen name="elevation_height">2.5dp</dimen>
+    <dimen name="margin_answer_breed">15dp</dimen>
+    <dimen name="button_mainmenu_txt_size">18sp</dimen>
+    <dimen name="main_menu_logo_margin_top">30dp</dimen>
+    <dimen name="search_text_size">15sp</dimen>
+    <dimen name="title_padding_land">120dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+</resources>

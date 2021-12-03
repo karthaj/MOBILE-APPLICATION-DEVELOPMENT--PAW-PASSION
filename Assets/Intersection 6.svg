@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="344.626" height="145.23" viewBox="0 0 344.626 145.23">
+  <defs>
+    <filter id="Intersection_6" x="0" y="0" width="344.626" height="145.23" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Intersection_6)">
+    <path id="Intersection_6-2" data-name="Intersection 6" d="M36,67H320.626c0,24.639-10.382,39.928-32.672,48.117-20.608,7.571-49.209,8.2-79.17,8.2-4.271,0-8.721-.014-12.119-.027h-.515l-.732,0h-.43c-3.242-.01-7.276-.022-11.168-.022-10.93,0-23.89.077-37.142.652-13.809.6-25.962,1.652-37.157,3.225-27.489,3.861-49.808,11-68.234,21.817-1.793,1.053-3.571,2.156-5.285,3.276h0Z" transform="translate(-6 -40)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Paw\nPassion</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="greeting_text">Hello there!</string>
+    <string name="level_switch_txt">Challenge Mode</string>
+    <string name="bottom_dog_row">Bottom dog row</string>
+    <string name="identify_dog">IDENTIFY THE DOG</string>
+    <string name="iden_breed">IDENTIFY THE BREED</string>
+    <string name="search_breed">SEARCH DOG BREED</string>
+    <string name="home_page_logo">Home page logo</string>
+    <string name="background_slide">Background slide</string>
+    <string name="FONT" tools:ignore="ReferenceType">@font/montserrat</string>
+    <string name="exit">Exit</string>
+    <string name="identify_the_dog">IDENTIFY THE DOG</string>
+    <string name="button_submit">SUBMIT</string>
+    <string name="image_viewer">Image viewer</string>
+    <string name="guess_the_breed">Guess the Breed?</string>
+    <string name="dummy_txt">- / -</string>
+    <string name="over_all">Over all</string>
+    <string name="correct">CORRECT :)</string>
+    <string name="wrong">WRONG :(</string>
+    <string name="dummy_timer">00</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="play_button">Play Button</string>
+    <string name="info">Info</string>
+    <string name="button_next">NEXT</string>
+    <string name="search_hint">Enter Breed</string>
+    <string name="TIMER_DUMMY">0</string>
+    <string name="item_list">BEAGLE\nBLOODHOUND\nBOSTON BUL\nBOXER\nDOBERMAN\
+        nFRENCH BULLDOG\nGERMAN SHEPHERD\nGOLDEN RETRIEVER\nGREAT DANE\nMINIATURE
+        SCHNAUZER\nPOMERANIAN\nPUG\nROTTWEILER\nSIBERIAN HUSKY\n</string>
+    <string name="dummy_score">- / -</string>
+    <string name="back_button">Back button</string>
+    <string name="list_of_dog_breeds" tools:ignore="DuplicateDefinition">List of Dog Breeds</string>
+    <string name="touch_to_play" tools:ignore="DuplicateDefinition">Touch to play</string>
+
+</resources>

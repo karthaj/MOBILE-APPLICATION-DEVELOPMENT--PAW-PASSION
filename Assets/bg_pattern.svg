@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="612" viewBox="0 0 360 612">
+  <g id="bg_pattern" transform="translate(0 -19)">
+    <g id="Group_85" data-name="Group 85">
+      <g id="Group_66" data-name="Group 66" transform="translate(0 458.43)">
+        <g id="Polygon_14" data-name="Polygon 14" transform="translate(90 -0.43) rotate(90)" fill="none">
+          <path d="M51,0l.255,59.85L102,90,51,60.3,0,90,50.745,59.85Z" stroke="none"/>
+          <path d="M 51 0 L 51.25500106811523 59.84999847412109 L 102 90 L 51 60.29999923706055 L 0 90 L 50.74499893188477 59.84999847412109 L 51 0 Z" stroke="none" fill="#756a6e"/>
+        </g>
+        <g id="Polygon_13" data-name="Polygon 13" transform="translate(270 101.57) rotate(-90)" fill="none">
+          <path d="M51,0l.255,59.85L102,90,51,60.3,0,90,50.745,59.85Z" stroke="none"/>
+          <path d="M 51 0 L 51.25500106811523 59.84999847412109 L 102 90 L 51 60.29999923706055 L 0 90 L 50.74499893188477 59.84999847412109 L 51 0 Z" stroke="none" fill="#756a6e"/>
+        </g>
+      </g>
+      <g id="Group_65" data-name="Group 65" transform="translate(0 293.647)">
+        <g id="Path_20" data-name="Path 20" transform="translate(270 102) rotate(-90)" fill="none">
+          <path d="M51,0l.255,59.85L102,90,51,60.3,32.385,71.141,0,90,50.745,59.85Z" stroke="none"/>
+          <path d="M 51 0 L 51.25500106811523 59.84999847412109 L 102 90 L 51 60.29999923706055 L 32.38458251953125 71.1407470703125 L 0 90 L 50.74499893188477 59.84999847412109 L 51 0 Z" stroke="none" fill="#756a6e"/>
+        </g>
+        <g id="Polygon_16" data-name="Polygon 16" transform="translate(90 0.353) rotate(90)" fill="none">
+          <path d="M51,0l.255,59.85L102,90,51,60.3,0,90,50.745,59.85Z" stroke="none"/>
+          <path d="M 51 0 L 51.25500106811523 59.84999847412109 L 102 90 L 51 60.29999923706055 L 0 90 L 50.74499893188477 59.84999847412109 L 51 0 Z" stroke="none" fill="#756a6e"/>
+        </g>
+      </g>
+      <g id="Group_79" data-name="Group 79" transform="translate(0 19)">
+        <g id="Path_20-2" data-name="Path 20" transform="translate(270 102) rotate(-90)" fill="none">
+          <path d="M51,0l.255,59.85L102,90,51,60.3,32.385,71.141,0,90,50.745,59.85Z" stroke="none"/>
+          <path d="M 51 0 L 51.25500106811523 59.84999847412109 L 102 90 L 51 60.29999923706055 L 32.38458251953125 71.1407470703125 L 0 90 L 50.74499893188477 59.84999847412109 L 51 0 Z" stroke="none" fill="#756a6e"/>
+        </g>
+        <g id="Polygon_16-2" data-name="Polygon 16" transform="translate(90) rotate(90)" fill="none">
+          <path d="M51,0l.255,59.85L102,90,51,60.3,0,90,50.745,59.85Z" stroke="none"/>
+          <path d="M 51 0 L 51.25500106811523 59.84999847412109 L 102 90 L 51 60.29999923706055 L 0 90 L 50.74499893188477 59.84999847412109 L 51 0 Z" stroke="none" fill="#756a6e"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_58" data-name="Rectangle 58" width="357" height="75" transform="translate(3 556)" fill="none"/>
+  </g>
+</svg>

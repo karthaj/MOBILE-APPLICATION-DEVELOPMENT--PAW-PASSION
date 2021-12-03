@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/wrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:elevation="@dimen/elevation_height"
+        android:fontFamily="@string/FONT"
+        android:text="@string/wrong"
+        android:textAlignment="center"
+        android:textColor="@color/color_9_red"
+        android:textSize="@dimen/c_r_fontSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/result_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="3"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/base"
+        app:layout_constraintTop_toTopOf="@+id/base">
+
+        <!--        wrong answer in red-->
+        <TextView
+            android:id="@+id/text_ans_user_breed_w"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_answer_breed"
+            android:background="@drawable/answer_bg"
+            android:elevation="@dimen/elevation_height"
+            android:fontFamily="@string/FONT"
+            android:paddingStart="@dimen/answer_gb_padding"
+            android:paddingTop="5dp"
+            android:paddingEnd="@dimen/answer_gb_padding"
+            android:paddingBottom="5dp"
+
+            android:text="@string/correct"
+            android:textAlignment="center"
+            android:textColor="@color/color_9_red"
+            android:textSize="@dimen/answer_font_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/base"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--        Correct answer in blue-->
+        <TextView
+            android:id="@+id/text_crt_user_breed_w"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/answer_bg"
+            android:elevation="@dimen/elevation_height"
+            android:fontFamily="@string/FONT"
+            android:paddingStart="@dimen/answer_gb_padding"
+            android:paddingTop="5dp"
+            android:paddingEnd="@dimen/answer_gb_padding"
+            android:paddingBottom="5dp"
+            android:text="@string/correct"
+            android:textAlignment="center"
+            android:textColor="@color/color_10_blue"
+            android:textSize="@dimen/answer_font_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/base"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/over_all_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@string/FONT"
+            android:padding="@dimen/answer_gb_padding"
+
+            android:text="@string/over_all"
+            android:textAlignment="center"
+            android:textColor="@color/color_4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_result_breed_w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/FONT"
+            android:text="@string/dummy_txt"
+            android:textAlignment="center"
+            android:textColor="@color/color_4"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/base"
+        android:layout_width="225dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/image_viewer"
+        android:elevation="@dimen/elevation_height"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_wrong"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/result_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wrong"
+        app:layout_constraintVertical_bias="0.275"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_next_breed_w"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight=".1"
+        android:background="@drawable/button_next"
+        android:clickable="true"
+        android:elevation="@dimen/elevation_height"
+        android:focusable="true"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/button_next"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/base"
+        app:layout_constraintTop_toBottomOf="@+id/result_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

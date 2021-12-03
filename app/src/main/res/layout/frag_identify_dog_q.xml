@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.IdentifyBreed.IdentifyBreed">
+
+
+    <LinearLayout
+        android:id="@+id/img_3_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="2dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:paddingStart="@dimen/title_radius"
+        android:paddingTop="@dimen/search_margin"
+        android:paddingEnd="@dimen/title_radius"
+        android:paddingBottom="@dimen/search_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="115dp">
+
+        <TextView
+            android:id="@+id/text_q_breed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/question_txt_gb"
+            android:elevation="2dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="@string/guess_the_breed"
+            android:textAlignment="center"
+            android:textColor="@color/color_4"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img_3"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="10dp"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:layout_weight="2"-->
+        <!--            android:clickable="true"-->
+        <!--            android:contentDescription="@string/_2"-->
+        <!--            android:focusable="true"-->
+        <!--            android:padding="7dp"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            tools:ignore="MissingConstraints" />-->
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img_2"-->
+
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="10dp"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:layout_weight="2"-->
+        <!--            android:clickable="true"-->
+        <!--            android:contentDescription="@string/_1"-->
+        <!--            android:focusable="true"-->
+        <!--            android:padding="7dp"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            tools:ignore="MissingConstraints" />-->
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img_1"-->
+
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="10dp"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:layout_weight="2"-->
+        <!--            android:clickable="true"-->
+        <!--            android:contentDescription="@string/_0"-->
+        <!--            android:focusable="true"-->
+        <!--            android:padding="7dp"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            tools:ignore="MissingConstraints" />-->
+
+        <LinearLayout
+            android:id="@+id/base1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_breed_options"
+            android:layout_marginEnd="@dimen/margin_breed_options"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="2"
+            android:background="@drawable/question_igm_gb"
+            android:elevation="@dimen/elevation_height"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:saveEnabled="false"
+            app:layout_constraintBottom_toTopOf="@+id/result_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.717">
+
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_breed_options"
+                android:layout_marginTop="@dimen/margin_breed_options"
+                android:layout_marginEnd="@dimen/margin_breed_options"
+                android:layout_marginBottom="@dimen/margin_breed_options"
+                android:contentDescription="@string/_0"
+                android:elevation="@dimen/elevation_height"
+                android:scaleType="fitCenter"
+                android:src="@drawable/source"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/base2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_breed_options"
+            android:layout_marginEnd="@dimen/margin_breed_options"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="2"
+            android:background="@drawable/question_igm_gb"
+            android:elevation="@dimen/elevation_height"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:saveEnabled="false"
+            app:layout_constraintBottom_toTopOf="@+id/result_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.717">
+
+            <ImageView
+                android:id="@+id/img_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_breed_options"
+                android:layout_marginTop="@dimen/margin_breed_options"
+                android:layout_marginEnd="@dimen/margin_breed_options"
+                android:layout_marginBottom="@dimen/margin_breed_options"
+                android:contentDescription="@string/_1"
+                android:elevation="@dimen/elevation_height"
+                android:scaleType="fitCenter"
+                android:src="@drawable/source"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/base3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_breed_options"
+            android:layout_marginEnd="@dimen/margin_breed_options"
+            android:layout_marginBottom="@dimen/margin_button"
+            android:layout_weight="2"
+            android:background="@drawable/question_igm_gb"
+            android:elevation="@dimen/elevation_height"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:saveEnabled="false"
+            app:layout_constraintBottom_toTopOf="@+id/result_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.717">
+
+            <ImageView
+                android:id="@+id/img_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_breed_options"
+                android:layout_marginTop="@dimen/margin_breed_options"
+                android:layout_marginEnd="@dimen/margin_breed_options"
+                android:layout_marginBottom="@dimen/margin_breed_options"
+                android:contentDescription="@string/_2"
+                android:elevation="@dimen/elevation_height"
+                android:scaleType="fitCenter"
+                android:src="@drawable/source"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

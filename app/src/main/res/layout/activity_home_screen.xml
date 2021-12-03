@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <!--Dog row-->
+    <!--        Button section-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="410dp"-->
+    <!--        android:layout_height="103dp"-->
+    <!--        android:layout_gravity="right"-->
+    <!--        android:elevation="6dp"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+
+    <!--        tools:ignore="MissingConstraints">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/img_bottom"-->
+    <!--            android:layout_width="352dp"-->
+    <!--            android:layout_height="116dp"-->
+    <!--            android:contentDescription="@string/bottom_dog_row"-->
+    <!--            android:foregroundGravity="bottom"-->
+    <!--            app:srcCompat="@drawable/img_bottom" />-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_gravity="right"-->
+    <!--            android:elevation="6dp"-->
+    <!--            android:orientation="vertical"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="1.0"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            tools:ignore="MissingConstraints"-->
+
+    <!--            tools:layout_editor_absoluteY="548dp">-->
+
+    <!--            <Space-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="47dp" />-->
+
+    <!--            &lt;!&ndash;            <ImageView&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:id="@+id/button_exit"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_height="0dp"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:layout_weight="1"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:elevation="7dp"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                app:srcCompat="@drawable/button_exit" />&ndash;&gt;-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/exit"-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textColor="@android:color/holo_red_dark"-->
+    <!--                android:textSize="12sp" />-->
+    <!--        </LinearLayout>-->
+
+    <!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="227dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/buttons_top_margin"
+        android:layout_marginBottom="16dp"
+        android:alpha="0"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btn_exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_level_switcher">
+
+            <!--Difficulty switcher-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/frame_padding"
+                android:elevation="@dimen/elevation_height"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/lvl_label"
+                    style="@style/CardView.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="@dimen/elevation_height"
+                    android:fontFamily="@string/FONT"
+                    android:text="@string/level_switch_txt"
+                    android:textSize="15sp" />
+
+                <Switch
+                    android:id="@+id/lvl_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTintMode="screen"
+                    android:elevation="2dp"
+                    android:textDirection="firstStrong"
+                    android:textSize="@dimen/level_timer_tx_siz" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_identify_dog"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="@dimen/margin_button"
+            android:background="@drawable/button_gb"
+            android:elevation="2dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/identify_dog"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/button_mainmenu_txt_size"
+            android:transitionName="title" />
+
+        <Button
+            android:id="@+id/btn_identify_breed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="@dimen/margin_button"
+            android:background="@drawable/button_gb"
+            android:elevation="2dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/iden_breed"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/button_mainmenu_txt_size"
+            android:transitionName="title" />
+
+        <Button
+            android:id="@+id/btn_search_breed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_gb"
+            android:elevation="2dp"
+            android:fontFamily="@font/poppins"
+
+            android:text="@string/search_breed"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/button_mainmenu_txt_size"
+            android:transitionName="title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:elevation="7dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_Logo"
+            android:layout_width="200sp"
+            android:layout_height="200dp"
+            android:layout_marginTop="108dp"
+            android:contentDescription="@string/home_page_logo"
+            android:elevation="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_logo_white"
+            app:layout_constraintEnd_toStartOf="@+id/img_app_bg"
+            app:layout_constraintStart_toEndOf="@+id/img_app_bg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:fontFamily="@font/nuevastd_bold"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="100sp" />
+
+
+    </LinearLayout>
+
+
+    <!--. Animation reference
+    Ref: 'https://www.youtube.com/watch?v=uUnap0j8wfc'
+    -->
+    <ImageView
+
+        android:id="@+id/img_app_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background_slide"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_app_bgr"
+        android:translationY="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+
+        android:id="@+id/img_gb_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:contentDescription="@string/background_slide"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_bg_pattern"
+        android:translationY="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_exit"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:alpha="0"
+        android:background="@drawable/empty_bg"
+        android:contentDescription="@string/exit"
+        android:scaleType="fitCenter"
+        android:src="@drawable/exit_button"
+        android:translationX="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
